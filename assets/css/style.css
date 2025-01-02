@@ -145,8 +145,12 @@ html {
 #slider {
     position: relative;
     margin-top: 46.5px;
-    padding-top: 50%; /*Ki thuat cdoc = 50% cngang. 50% cngang cua chinh no*/ 
-    background: url(/assets/image/slider/slider2.jpg) top center / cover no-repeat;
+    padding-top: 50%;
+    background-image: url(/assets/image/slider/slider2.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 #slider .text-content {
