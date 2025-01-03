@@ -145,10 +145,13 @@ html {
 #slider {
     position: relative;
     margin-top: 46.5px;
-    padding-top: 50%;
-    background-image: url(/assets/image/slider/slider1.jpg);
+    /* background-image: url(/assets/image/slider/slider1.jpg);
     background-position: top;
-    background-size: cover;
+    background-size: cover; */
+}
+
+#slider .background-img {
+    width: 100%;
 }
 
 #slider .text-content {
